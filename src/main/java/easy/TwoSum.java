@@ -22,12 +22,4 @@ public class TwoSum {
         // something wrong!
         return null;
     }
-
-    public static void main(String[] args) {
-        TwoSum solution = new TwoSum();
-
-        System.out.println(Arrays.equals(new int[]{0,1}, solution.twoSum(new int[]{2, 7, 11, 15}, 9)));
-        System.out.println(Arrays.equals(new int[]{1,2}, solution.twoSum(new int[]{3,2,4}, 6)));
-        System.out.println(Arrays.equals(new int[]{0,1}, solution.twoSum(new int[]{3,3}, 6)));
-    }
 }
